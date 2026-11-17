@@ -19,3 +19,9 @@ Google 로그인과 원격 연결은 Google 사이트에서 직접 처리하며 
 설치된 앱에서 초기 화면을 유지하려면 방향별 URL에 ?setup=1 을 붙이세요. 브라우저에서 설치 페이지를 방문하면 자동 이동하지 않습니다.
 
 방향 고정의 외부 사이트 이동 후 유지 여부는 브라우저 및 기기 동작에 의존하며 모든 기기에서 보장되지 않습니다. GitHub Pages 호스팅도 영구 가용성을 보장하는 서비스는 아닙니다.
+
+## 설치 주소
+
+https://crd-fix.mabi.dev/
+
+GitHub Pages 사용자 지정 도메인을 사용합니다. Cloudflare에는 `crd-fix.mabi.dev`에서 `mabinewb.github.io`로 향하는 DNS 전용 CNAME 레코드를 설정합니다. HTTPS는 GitHub Pages에서 제공합니다. 이전 GitHub 주소에서 설치한 PWA는 새 도메인에서 다시 설치해야 합니다.
