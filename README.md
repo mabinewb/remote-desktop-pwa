@@ -24,4 +24,4 @@ Google 로그인과 원격 연결은 Google 사이트에서 직접 처리하며 
 
 https://crd-fix.mabi.dev/
 
-GitHub Pages 사용자 지정 도메인을 사용합니다. Cloudflare에는 `crd-fix.mabi.dev`에서 `mabinewb.github.io`로 향하는 DNS 전용 CNAME 레코드를 설정합니다. HTTPS는 GitHub Pages에서 제공합니다. 이전 GitHub 주소에서 설치한 PWA는 새 도메인에서 다시 설치해야 합니다.
+GitHub Pages 사용자 지정 도메인을 사용합니다. Cloudflare에는 `crd-fix.mabi.dev`에서 `mabinewb.github.io`로 향하는 프록시를 켠 CNAME 레코드를 설정합니다. 사용자 접속의 HTTPS는 Cloudflare에서 제공하며, 원본 콘텐츠는 GitHub Pages에서 제공합니다. 이전 GitHub 주소에서 설치한 PWA는 새 도메인에서 다시 설치해야 합니다.
